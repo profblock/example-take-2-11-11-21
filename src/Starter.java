@@ -9,5 +9,12 @@ public class Starter {
 
         System.out.println("Hello world Yay this is working");
         System.out.println("I'm in the main now");
+        System.out.println("I'm in the other branch");
+
+
+        System.out.println("Please enter an integer");
+        Scanner scan = new Scanner(System.in);
+        int x = scan.nextInt();
+        System.out.println("You entered "+x);
     }
 }
