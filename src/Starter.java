@@ -13,7 +13,6 @@ public class Starter {
 
 
         System.out.println("Please enter an integer");
-        Scanner scan = new Scanner(System.in);
         int x = scan.nextInt();
         System.out.println("You entered "+x);
     }
